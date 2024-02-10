@@ -36,3 +36,38 @@ Documented commands (type help <topic>):
 
 ========================================
 EOF all count create destroy help quit show update
+
+## Models
+
+The folder models contains all the classes used in this project.
+
+**Base Model**
+
+- **File:** base_model.py
+- **Description:** BaseModel class for all the other classes
+- **Attributes:** id, created_at, updated_at
+
+**User Model**
+
+- **File:** user.py
+- **Description:** User class for future user information
+- **Attributes:** email, password, first name, last name
+
+(Continue listing other models with their respective files and attributes)
+
+## File Storage
+
+The folder engine manages the serialization and deserialization of all the data, following a JSON format.
+
+- **File:** file_storage.py
+- **Description:** Contains the FileStorage class with methods for serialization and deserialization.
+
+(Describe the flow of data storage here)
+
+## Tests
+
+All the code is tested with the unittest module. The test for the classes are in the test models folder.
+
+## Authors
+
+Kareem Badr Saber - kimobadrsaber@gmail.com
